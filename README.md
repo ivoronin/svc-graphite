@@ -31,6 +31,8 @@ It should be pretty easy to write a shell script to run in a cron every few minu
  -h, --no-help, --help  false      Show help           
 ```
 
+Please note that at the moment the `clj_graphite/client` library only support UDP transport.
+
 ### Bugs
 - High startup time
 - java.io.IOException (Operation not permitted) on Linux: disable iptables and unload all iptables-related (ipt\_\*, nf\_\*, xt\_\*) modules.
