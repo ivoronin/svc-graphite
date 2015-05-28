@@ -35,7 +35,8 @@
           ; Skip unneeded attributes
           (if-not (some #{statistic} [:id :cluster :node_id :cluster_id
                                       :type :type_id :wwpn :fc_wwpn
-                                      :fcoe_wwpn :sas_wwn :iqn])
+                                      :fcoe_wwpn :sas_wwn :iqn
+                                      :idw :dis :cv :lsy])
            (let [statistic-name (name statistic)
                  value (Float/parseFloat value-string)]
               (.feed graphite
