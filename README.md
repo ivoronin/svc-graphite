@@ -39,6 +39,7 @@ Please note that at the moment the `clj_graphite/client` library only support UD
 
 ## Useful links
 - [Overview of SVC V5.1.0 Performance Statistics](http://www-01.ibm.com/support/docview.wss?uid=ssg1S1003597)
+- [Field Descriptions for SVC / Storwize Performance Data File QSVCPORTS](http://www-01.ibm.com/support/docview.wss?uid=nas8N1020228)
 
 ## License
 
